@@ -6,13 +6,11 @@
 #    By: afoures <afoures@student.42.fr>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2018/05/05 14:26:10 by afoures           #+#    #+#              #
-#    Updated: 2018/05/07 17:55:19 by afoures          ###   ########.fr        #
+#    Updated: 2018/05/07 19:27:58 by afoures          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 #!/bin/bash
-
-max_game=5
 
 player1="abanlin.filler"
 player2="carli.filler"
@@ -29,7 +27,7 @@ testp1()
 {
 	p1="0";
 	p2="0";
-	for value in {1..max_game}
+	for value in {1..5}
 	do
 		./filler_vm -f maps/${1} -p1 players/${2} -p2 players/${3}
 		result=$(cat filler.trace | grep won)
