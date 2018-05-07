@@ -6,7 +6,7 @@
 /*   By: afoures <afoures@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/05/04 11:33:47 by afoures           #+#    #+#             */
-/*   Updated: 2018/05/04 15:40:27 by afoures          ###   ########.fr       */
+/*   Updated: 2018/05/07 18:42:33 by afoures          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -51,7 +51,7 @@ void	put_winner(t_window *win, t_state *state)
 
 	winner = SDL_CreateRGBSurface(0, win->width, win->height,
 									32, 0xff, 0xff00, 0xff0000, 0xff000000);
-	put_rect(winner, (t_rect){0, 0, win->width, win->height}, 0xA0000000);
+	put_rect(winner, (t_rect){0, 0, win->width, win->height}, 0xC0000000);
 	put_score(win, state, winner);
 	ft_bzero(str, 200);
 	ft_sprintf(str, "%d vs %d", state->score1 + (state->score2 - state->score1)

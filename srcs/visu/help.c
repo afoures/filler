@@ -6,7 +6,7 @@
 /*   By: afoures <afoures@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/03/14 21:21:21 by afoures           #+#    #+#             */
-/*   Updated: 2018/05/05 22:08:34 by afoures          ###   ########.fr       */
+/*   Updated: 2018/05/07 18:39:15 by afoures          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -56,7 +56,7 @@ void			create_help_menu(t_window *win, t_state *state)
 	help_height = (TTF_FontLineSkip(win->ttf_help) + 25) * 9 + 50;
 	win->help = SDL_CreateRGBSurface(0, win->width, win->height,
 									32, 0xff, 0xff00, 0xff0000, 0xff000000);
-	put_rect(win->help, (t_rect){0, 0, win->width, win->height}, 0xA0000000);
+	put_rect(win->help, (t_rect){0, 0, win->width, win->height}, 0xC0000000);
 	create_surface(win, help_height);
 	SDL_SetSurfaceBlendMode(win->surface, SDL_BLENDMODE_BLEND);
 	SDL_SetSurfaceBlendMode(win->help, SDL_BLENDMODE_BLEND);

@@ -6,13 +6,13 @@
 #    By: afoures <afoures@student.42.fr>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2018/03/21 22:41:09 by marvin            #+#    #+#              #
-#    Updated: 2018/05/04 15:39:48 by afoures          ###   ########.fr        #
+#    Updated: 2018/05/07 17:54:29 by afoures          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 .PHONY: all, clean, fclean, re
 
-NAME			=	players/afoures.filler
+NAME			=	afoures.filler
 VISU			=	visu
 
 CC				=	clang
