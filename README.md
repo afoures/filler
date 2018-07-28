@@ -21,9 +21,9 @@ I created a visualizer to have a better understanding of the game.
 
 ## Exemple
 
-![Start Menu](https://raw.githubusercontent.com/afoures/Filler/master/images/startMenu.png =500x)
-![Help Menu](https://raw.githubusercontent.com/afoures/Filler/master/images/helpMenu.png =1000x)
-![Winner](https://raw.githubusercontent.com/afoures/Filler/master/images/winner.png)
+<img src="https://raw.githubusercontent.com/afoures/Filler/master/images/startMenu.png" alt="Start Menu" width="500">
+<img src="https://raw.githubusercontent.com/afoures/Filler/master/images/startMenu.png" alt="Help Menu" width="1000">
+<img src="https://raw.githubusercontent.com/afoures/Filler/master/images/startMenu.png" alt="Winner">
 
 ## Requirements
 
