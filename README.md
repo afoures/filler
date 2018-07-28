@@ -22,8 +22,8 @@ I created a visualizer to have a better understanding of the game.
 ## Exemple
 
 <img src="https://raw.githubusercontent.com/afoures/Filler/master/images/startMenu.png" alt="Start Menu" width="500">
-<img src="https://raw.githubusercontent.com/afoures/Filler/master/images/startMenu.png" alt="Help Menu" width="1000">
-<img src="https://raw.githubusercontent.com/afoures/Filler/master/images/startMenu.png" alt="Winner">
+<img src="https://raw.githubusercontent.com/afoures/Filler/master/images/helpMenu.png" alt="Help Menu" width="500">
+<img src="https://raw.githubusercontent.com/afoures/Filler/master/images/winner.png" alt="Winner" width="500">
 
 ## Requirements
 
