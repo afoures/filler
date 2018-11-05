@@ -29,8 +29,8 @@ void	init_font(t_window *win)
 		display_error("error: SDL Init");
 	win->ttf_help = NULL;
 	win->ttf_winner = NULL;
-	win->ttf_help = TTF_OpenFont("ressources/upheavtt.ttf", 20);
-	win->ttf_winner = TTF_OpenFont("ressources/upheavtt.ttf", 30);
+	win->ttf_help = TTF_OpenFont("resources/upheavtt.ttf", 20);
+	win->ttf_winner = TTF_OpenFont("resources/upheavtt.ttf", 30);
 	if (win->ttf_help == NULL || win->ttf_winner == NULL)
 		display_error("error: loading font");
 }
@@ -43,10 +43,10 @@ void	init_music(t_window *win)
 	win->darude = NULL;
 	win->esaxguy = NULL;
 	win->nggyu = NULL;
-	win->tetris = Mix_LoadMUS("ressources/tetris.ogg");
-	win->darude = Mix_LoadMUS("ressources/darude.ogg");
-	win->esaxguy = Mix_LoadMUS("ressources/esaxguy.ogg");
-	win->nggyu = Mix_LoadMUS("ressources/nggyu.ogg");
+	win->tetris = Mix_LoadMUS("resources/tetris.ogg");
+	win->darude = Mix_LoadMUS("resources/darude.ogg");
+	win->esaxguy = Mix_LoadMUS("resources/esaxguy.ogg");
+	win->nggyu = Mix_LoadMUS("resources/nggyu.ogg");
 	if (win->tetris == NULL || win->darude == NULL
 		|| win->esaxguy == NULL || win->nggyu == NULL)
 		display_error("error: loading music");
